@@ -4,8 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
 </head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    
+    header {
+        background-color: #ffafcc;
+        color: #ffffff;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 0 10px;
+    }
+    
+    nav ul li a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+    
+    section {
+        margin: 20px 0;
+        padding: 20px;
+        background-color: #f3f4f6;
+    }
+    
+    footer {
+        background-color: #ffafcc;
+        color: #ffffff;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    
+</style>
 <body>
     <header>
         <h1>Bem-vindo ao Nosso Site de Comida</h1>
@@ -42,5 +85,6 @@
     <footer>
         <p>&copy; 2024 Site de Comida. Todos os direitos reservados.</p>
     </footer>
+<a href="{% url 'view1' %}">Ir para Meu Template</a>
 </body>
 </html>
